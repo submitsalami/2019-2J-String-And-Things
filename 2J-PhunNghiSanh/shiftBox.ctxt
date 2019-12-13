@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=shiftBox
+comment1.params=
+comment1.target=void\ main()
+comment2.params=one\ a\ b
+comment2.target=void\ shift(java.awt.Rectangle,\ int,\ int)
+numComments=3
