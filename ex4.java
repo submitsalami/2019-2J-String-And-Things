@@ -1,29 +1,33 @@
 
-
 /**
  * クラス ex3 の注釈をここに書きます.
- * String traversal
- * @author (nisala)
- * @version (25-10-2019)
+ * point
+ * ashma gurung
+ * @version (バージョン番号もしくは日付)
  */
+import java.awt.Point;
 public class ex4{
-    public static void main(){
-    String name;
-    name ="nisal";
-    System.out.print(n(name));
-    
+   public static void createPoint(int x, int y){
+        Point p = new Point(x, y);
+        //a point has two attributes x and y
+        p.x = 5;
+        p.y = 5;
+        printPoint(p);
    }
     
-    
-   public static String n(String name){
-    String r;
-       r= "";
-    for (int i=name.length()-1;i>=0;i--){
-
-        r =r+name.charAt(i);
-        
+   public static void main (String[]args){
+      
+      createPoint(4, 4);
+      //Point p = new Point();
+      
+      
     }
-     return r;
-   }
-   
+    //create a method called createPoint, it takes two variable x and y.
+    //In createPoint create point : (x ,y)
+    
+    public static void printPoint(Point a){
+        
+       System.out.print(a); 
+    }
 }
+
